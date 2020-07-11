@@ -8,9 +8,8 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port:
-       targetPort: 80
-       port: 80
+    - targetPort: 80
+      port: 80
     selector:
       labels:
         name: voting-app-pod
